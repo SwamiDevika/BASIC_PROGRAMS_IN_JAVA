@@ -2,9 +2,9 @@ package com.firstprogram.abc;
 /**
  * print the argument command line passing through the length the console
  * and find the length of command line argument passed
- * @author manjunath aradhya
+ * @author Saugandhika
  *@version 15.0
- *@since yyyy-mm-dd
+ *@since 28-10-1998
  */
 public class BETA2 {
 /**
