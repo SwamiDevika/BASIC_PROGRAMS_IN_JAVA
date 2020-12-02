@@ -2,7 +2,7 @@ package com.firstprogram.abc;
 /**
  * print the argument command line passing through the length the console
  * and find the length of command line argument passed
- * @author Saugandhika
+ * @author DEV
  *@version 15.0
  *@since 28-10-1998
  */
