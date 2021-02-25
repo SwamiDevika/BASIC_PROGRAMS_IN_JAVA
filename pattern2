@@ -1,0 +1,32 @@
+/******************************************************************************
+         printing number Faloowing format
+                           01 06  11 16 21
+                           02 07  12 17 22
+                           03 08  13 18 23
+                           04 09  14 19 24
+                           05 10  15 20 25
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+    int s = sc.nextInt ();
+    int d=1;
+    for (int i = 1; i < s; i++)
+      {
+        for(int j=1;j<s;j++)
+		{
+		    if(d<10){
+		        System.out.print("0");
+		        
+		    }
+	      System.out.print(d+" ");
+	      d+=s-1;
+		}System.out.println();
+		d=i+1;
+      }
+  }
+}
